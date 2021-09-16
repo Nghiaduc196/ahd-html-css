@@ -1,0 +1,29 @@
+.tab-big {
+    margin-left: 145px;
+}
+
+.tab-big .nav-tabs {
+    border-color: #eeeeee;
+    border-bottom: none;
+}
+.tab-big .nav-tabs .nav-item {
+    margin-bottom: 0;
+}
+.tab-big .nav-tabs .nav-item .nav-link {
+    border: none;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #8e8e93;
+    padding: 20px 20px;
+    border-bottom: 3px solid transparent;
+}
+.tab-big .nav-tabs .nav-item .nav-link.active {
+    border-bottom: 3px solid #0e1e8e;
+    color: #0e1e8e;
+}

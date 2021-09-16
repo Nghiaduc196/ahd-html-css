@@ -1,0 +1,21 @@
+.content-images .list-image, .content-images .list-video {
+    margin-left: 145px;
+    margin-right: 145px;
+}
+
+.content-images .list-image .img-show{
+    max-height: 520px;
+    margin-bottom: 16px;
+}
+
+.content-images .list-video .video p {
+    font-family: Inter, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.14px;
+    text-align: left;
+    color: #1d293f;
+}

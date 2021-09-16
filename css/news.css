@@ -168,8 +168,4 @@
 
 .pagination .page-link.active {
     color: #0e1e8e;
-    width: 24px;
-    height: 24px;
-    border-radius: 4px;
-    background-color: #ddf3f1;
 }

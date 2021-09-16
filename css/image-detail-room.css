@@ -1,6 +1,5 @@
-.content-section .list-image, .content-section .list-video {
-    margin-left: 145px;
-    margin-right: 145px;
+.content-section .list-image, .content-section .list-video, .content-section .design-images {
+    margin: 40px 145px 124px;
 }
 
 .content-section .list-image .img-show{
@@ -18,4 +17,12 @@
     letter-spacing: 0.14px;
     text-align: left;
     color: #1d293f;
+}
+
+.content-section .design-images .design-image {
+    max-width: 788px;
+    max-height: 788px;
+    position: relative;
+    border-radius: 16px;
+    border: solid 1.5px #e5e7e9;
 }

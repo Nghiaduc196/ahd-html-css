@@ -26,3 +26,19 @@
     border-radius: 16px;
     border: solid 1.5px #e5e7e9;
 }
+
+.list-rooms {
+    margin-top: 40px;
+}
+
+.list-rooms .image-slide{
+    margin-bottom: 28px;
+}
+
+.list-rooms .btn-see-more-image {
+    width: 250px;
+    height: 56px;
+    border-radius: 6px;
+    border: solid 1.5px #e5e7e9;
+    background-color: #fff;
+}

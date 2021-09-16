@@ -138,41 +138,6 @@
     height: 56px;
 }
 
-.image-slide {
-    position: relative;
-    max-width: 472px;
-}
-
-.image-slide .content-slide {
-    position: absolute;
-    bottom: 0;
-}
-
-.image-slide .content-slide .title-slide {
-    font-family: Inter, sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.4;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-}
-
-.image-slide .content-slide .sub-slide span{
-    font-family: Inter, sans-serif;
-    padding-right: 24px;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.28;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-}
-
 .content .card {
     width: 520px;
     border-radius: 16px;
@@ -189,43 +154,6 @@
     font-style: normal;
     line-height: 1.21;
     letter-spacing: 0.14px;
-    text-align: left;
-    color: #1d293f;
-}
-.content .card .card-header .filter {
-    margin-top: 20px;
-}
-.content .card .card-header .filter .btn-filter {
-    width: 128px;
-    height: 48px;
-    border-radius: 8px;
-    border: solid 1.5px #e5e7e9;
-    background-color: #fff;
-    font-family: Inter, sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.28;
-    letter-spacing: normal;
-    text-align: left;
-    color: #1d293f;
-}
-.content .card .card-header .filter .btn-filter img {
-    width: 24px;
-    height: 21.8px;
-    margin-left: 2px;
-    margin-right: 16px;
-}
-
-.filter .dropdown a {
-    font-family: Inter, serif;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.28;
-    letter-spacing: normal;
     text-align: left;
     color: #1d293f;
 }

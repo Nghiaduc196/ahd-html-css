@@ -155,17 +155,56 @@
 
 .pagination .number {
     font-family: Inter, sans-serif;
+    color: #1d293f;
+}
+
+.pagination .page-link.active {
+    color: #0e1e8e;
+    background: #ddf3f1;
+}
+
+.content-new {
+    max-width: 1060px;
+}
+
+.content-new .title-new {
+    font-family: Inter, sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.17px;
+    text-align: left;
+    color: #1d293f;
+}
+
+.content-new .time-new {
+    font-family: Inter, sans-serif;
     font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.28;
     letter-spacing: normal;
-    text-align: center;
-    color: #1d293f;
-    margin-top: 3px;
+    text-align: left;
+    color: #7c8087;
 }
 
-.pagination .page-link.active {
-    color: #0e1e8e;
+.content-new .text-content-new {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1d293f;
+}
+
+.content-new img {
+    max-width: 1033px;
+    margin-top: 44px;
+    margin-bottom: 48px;
 }

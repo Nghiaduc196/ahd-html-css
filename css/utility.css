@@ -1,0 +1,84 @@
+.ahd-utilities {
+    background: url('../img/background-utilities.png');
+}
+.ahd-utilities .ahd-utilities-content {
+    margin: 0 145px;
+    padding-top: 64px;
+}
+.ahd-utilities .ahd-utilities-content .title-section {
+    font-family: Inter, sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.17px;
+    text-align: left;
+    color: #1d293f;
+}
+.ahd-utilities .ahd-utilities-content .text-sub-title {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1d293f;
+}
+.ahd-utilities .ahd-utilities-content .slide {
+    padding-bottom: 96px;
+}
+.ahd-utilities .ahd-utilities-content .slide .image-slide {
+    position: relative;
+    max-width: 384px;
+}
+.ahd-utilities .ahd-utilities-content .slide .image-slide .content-slide {
+    position: absolute;
+    bottom: 0;
+}
+.ahd-utilities .ahd-utilities-content .slide .image-slide .content-slide .title-slide {
+    margin-bottom: 12px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+.ahd-utilities .ahd-utilities-content .slide .image-slide .content-slide .sub-slide {
+    max-width: 320px;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.btn-support {
+    position: fixed;
+    bottom: 32px;
+    z-index: 1000;
+    right: 32px;
+}
+.btn-support .btn {
+    width: 72px;
+    height: 72px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 3px 20px 0 rgba(42, 56, 136, 0.16);
+    background-color: #f8f9fa5c;
+}
+
+.btn-support .btn img{
+    width: 28px;
+    height: 28px;
+}

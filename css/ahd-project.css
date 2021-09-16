@@ -1,0 +1,98 @@
+.adh-list-project {
+    margin-left: 48px;
+    margin-bottom: 160px;
+}
+.adh-list-project .title {
+    margin-top: 56px;
+    font-family: Inter, sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.17px;
+    text-align: left;
+    color: #1d293f;
+}
+.adh-list-project .media {
+    max-width: 992px;
+    position: relative;
+    max-height: 232px;
+    padding-bottom: 24px;
+}
+.adh-list-project .media img {
+    max-width: 288px;
+    border-radius: 15px;
+}
+.adh-list-project .media .media-body {
+    padding-left: 32px;
+}
+.adh-list-project .media .media-body .name-project {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1d293f;
+}
+.adh-list-project .media .media-body .address-project {
+    margin-bottom: 12px;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7c8087;
+}
+.adh-list-project .media .media-body .address-project img {
+    width: 11.2px;
+    height: 16px;
+}
+.adh-list-project .media .media-body .address-project i {
+    color: #00c199;
+}
+.adh-list-project .media .media-body .information-project {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7c8087;
+    margin-bottom: 52px !important;
+}
+.adh-list-project .media .media-body .price {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7c8087;
+}
+.adh-list-project .media .media-body .price span {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0e1e8e;
+}
+.adh-list-project .media .media-body .btn-outline-primary {
+    box-shadow: 0 3px 20px 0 rgba(42, 56, 136, 0.16);
+    background-color: #fff;
+    color: unset;
+    border-color: whitesmoke;
+}
+
+.basic-select {
+    width: 336px;
+    height: 48px;
+}

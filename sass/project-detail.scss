@@ -1,0 +1,160 @@
+.background-project {
+  background: url('../img/backgroun-info.png');
+  background-size: cover;
+  .title-section {
+    margin-left: 160px;
+    margin-top: 96px;
+    height: 864px;
+    .title-project {
+      font-family: Inter, sans-serif;
+      font-size: 48px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.19;
+      letter-spacing: 0.24px;
+      text-align: left;
+      color: #1d293f;
+    }
+    .address {
+      font-family: Inter, sans-serif;
+      font-size: 20px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.15;
+      letter-spacing: normal;
+      text-align: left;
+      color: #7c8087;
+      i {
+        color: #f59696;
+      }
+    }
+    .btn-contact{
+      border-radius: 8px;
+      background-color: #00c199;
+      font-size: 20px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.4;
+      letter-spacing: normal;
+      text-align: center;
+      color: #fff;
+    }
+    .btn-see-image {
+      border-radius: 8px;
+      border: solid 1.5px #e5e7e9;
+      background-color: #fff;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.28;
+      letter-spacing: normal;
+      text-align: left;
+      color: #1d293f;
+    }
+  }
+}
+
+.nav-tabs {
+  border-color: #eeeeee;
+}
+.nav-tabs .nav-item {
+  margin-bottom: 0; }
+.nav-tabs .nav-item .nav-link {
+  border: none;
+  font-size: 16px;
+  padding: 20px 20px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: 3px solid transparent;
+  color: #001935; }
+.nav-tabs .nav-item .nav-link.active {
+  border-bottom: 3px solid #26ae61;
+  color: #26ae61; }
+
+.nav-tabs.nav-tabs-02 {
+  border: none; }
+.nav-tabs.nav-tabs-02 .nav-item {
+  margin-bottom: 0; }
+.nav-tabs.nav-tabs-02 .nav-item .nav-link {
+  background: #fafafa;
+  border: none;
+  color: #001935;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-right: 20px; }
+.nav-tabs.nav-tabs-02 .nav-item .nav-link.active {
+  background: #26ae61;
+  border: none;
+  color: #ffffff; }
+
+.nav-tabs.nav-tabs-02 .nav-item:last-child .nav-link {
+  margin-right: 0px; }
+
+.content {
+  margin-left: 160px;
+  margin-top: 64px;
+}
+
+.content {
+  .card {
+    width: 520px;
+    border-radius: 16px;
+    .card-header {
+      background: none;
+      border-bottom: none;
+      .title-card {
+        font-family: Inter, sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: 0.14px;
+        text-align: left;
+        color: #1d293f;
+      }
+      .filter {
+        margin-top: 20px;
+        .btn-filter {
+          width: 128px;
+          height: 48px;
+          border-radius: 8px;
+          border: solid 1.5px #e5e7e9;
+          background-color: #fff;
+          font-family: Inter, sans-serif;
+          font-size: 18px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.28;
+          letter-spacing: normal;
+          text-align: left;
+          color: #1d293f;
+          img {
+            width: 24px;
+            height: 21.8px;
+            padding-left: 16px;
+            padding-right: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.filter-dropdown {
+  font-family: Inter, serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d293f;
+}

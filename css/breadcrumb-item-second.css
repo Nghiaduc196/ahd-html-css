@@ -1,0 +1,52 @@
+.breadcrumb-section {
+    padding-left: 145px;
+    background: rgba(0, 193, 153, 0.5);
+}
+.breadcrumb-section .nav-tabs {
+    border-color: #eee;
+    border-bottom: none;
+}
+.breadcrumb-section .nav-tabs .nav-item {
+    margin-bottom: 0;
+}
+.breadcrumb-section .nav-tabs .nav-item .nav-link {
+    border: none;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.breadcrumb-section .nav-tabs .nav-item .nav-link.active {
+    border-bottom: 3px solid #FFFFFF;
+    color: #FFFFFF;
+    background: none;
+}
+
+.breadcrumb-section .breadcrumb {
+    background: none;
+    margin-right: 20px;
+}
+
+.breadcrumb-section .breadcrumb-item+.breadcrumb-item::before {
+    display: none;
+}
+
+.breadcrumb .breadcrumb-item a {
+    color: #fff;
+    font-size: 18px;
+}
+.breadcrumb .breadcrumb-item a:hover {
+    color: #0e1e8e;
+}
+
+.breadcrumb .breadcrumb-item i {
+    padding-right: 5px;
+    font-size: 23px;
+    padding-left: 8px;
+    color: #fff;
+}
+.breadcrumb .breadcrumb-item:before {
+    display: none;
+}

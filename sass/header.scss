@@ -1,0 +1,51 @@
+@import "color";
+.header {
+  box-shadow: 0 0 20px 0 rgba(42, 56, 136, 0.16);
+}
+.top-bar {
+  background: $royal;
+  color: #fff;
+  .top-link {
+    margin-right: 140px;
+    .link {
+      a {
+        font-family: "Inter", sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.28;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+      }
+    }
+  }
+}
+.navbar-brand {
+  width: 102px;
+  height: 36px;
+}
+
+nav {
+  margin-right: 133px;
+  .nav-bar-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.text-link {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  color: $dark;
+}
+
+.logo {
+  margin-left: 144px;
+}

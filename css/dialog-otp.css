@@ -1,0 +1,66 @@
+.card .card-header{
+    background-color: unset;
+    border-bottom: none;
+}
+
+.card .card-header .title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 45px;
+    color: #1D293F;
+}
+
+.card .card-header .text-note{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1D293F;
+}
+
+.card .card-body{
+    margin-top: 42px;
+}
+
+.input-otp {
+    width: 66px;
+    height: 66px;
+    border: 2px solid #00C199;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #00C199;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 53px;
+}
+
+.btn-otp {
+    width: 100%;
+    height: 56px;
+    margin-top: 86px;
+    background: #00C199;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+}
+
+.note-time {
+    margin-top: 28px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    color: #0E1E8E;
+}
+
+.note-time .time {
+    color: red;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background: #fff;
+}

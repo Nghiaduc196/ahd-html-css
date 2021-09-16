@@ -1,0 +1,135 @@
+@import "~scss/color";
+.bg-royal {
+  background-color: $royal;
+}
+
+.footer-left {
+  margin: 64px 0 55px 145px;
+  .logo {
+    width: 136px;
+    height: 48px;
+    margin-bottom: 32px;
+  }
+  .text-info {
+    font-family: Inter, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff !important;
+  }
+}
+
+.footer-right {
+  margin-top: 76px;
+  margin-right: 160px;
+  .title {
+    text-align: right;
+  }
+  .btn-success {
+    border-radius: 6px;
+    background-color: $green-blue;
+    height: 56px;
+    width: 250px;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+
+.line-32 {
+  width: 84%;
+  height: 1px;
+  margin: 0 145px 63.5px;
+  background-color: $very-light-blue;
+}
+
+.title {
+  font-family: Inter, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: 0.14px;
+  color: #fff;
+}
+
+.register-form {
+  padding: 0 145px 96px;
+    .register {
+      position: relative;
+      width: 655px;
+      height: 56px;
+      input {
+        width: 655px;
+        height: 56px;
+      }
+      a {
+          position: absolute;
+          right: 0;
+          top: 0;
+          background: $green-blue;
+          color: #ffffff;
+          cursor: pointer;
+        text-align: center;
+        width: 140px;
+        height: 48px;
+        margin: 4px;
+        padding: 12px 20px;
+        border-radius: 6px;
+      }
+    }
+  }
+
+.text-note {
+  margin-top: 104px;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.footer-link {
+  .text-primary {
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffff !important;
+  }
+  ul {
+    li {
+      margin-bottom: 16px;
+      a {
+        font-family: Inter, sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.28;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+      }
+    }
+  }
+}

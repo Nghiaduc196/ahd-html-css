@@ -1,0 +1,62 @@
+.banner-bg-slider {
+    position: relative;
+    background: url('../img/banner-search.png');
+    background-size: cover;
+}
+.banner-bg-slider .bg-slider {
+    height: 960px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.banner-bg-slider .banner-bg-slider-content {
+    position: absolute;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    width: 100%;
+}
+.banner-bg-slider .banner-bg-slider-content .search {
+    height: 161px;
+    position: relative;
+    margin: 39px 0 0;
+    padding: 17px 16px 24px 16px;
+    border-radius: 12px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background-color: #f2f3f438;
+}
+.banner-bg-slider .banner-bg-slider-content .search a {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #26ae61;
+    color: #fff;
+    padding: 18px 30px;
+    cursor: pointer;
+    margin: 22px;
+    border-radius: 3px;
+}
+.banner-bg-slider .banner-bg-slider-content .search input {
+    padding-left: 30px;
+    padding-right: 130px;
+    height: 72px;
+}
+.banner-bg-slider .banner-bg-slider-content .search .location {
+    align-items: center;
+}
+
+.banner-bg-slider .banner-bg-slider-content .search .location p{
+    align-items: center;
+}
+
+.banner-bg-slider .banner-bg-slider-content .search .location p {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}

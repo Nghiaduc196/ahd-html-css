@@ -1,0 +1,99 @@
+.text-sub-content {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1d293f;
+}
+.text-sub-number {
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.73;
+    letter-spacing: 0.28px;
+    text-align: left;
+    color: #0e1e8e;
+    margin-bottom: 16px;
+}
+.information {
+    margin: 80px 160px;
+}
+.information .text-sub {
+    max-width: 288px;
+    margin-right: 248px;
+}
+.information .content-info {
+    max-width: 248px;
+}
+.information .acd-project {
+    height: 848px;
+    margin-top: 184px;
+}
+.information .acd-project .list-project .title {
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.17px;
+    text-align: left;
+    color: #1d293f;
+}
+.information .acd-project .list-project .text-sub-title {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1d293f;
+}
+.information .acd-project .list-project .project {
+    border-left: 5px solid #00c199;
+    padding-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.information .acd-project .list-project .project .title-project {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.14px;
+    text-align: left;
+    color: #1d293f;
+}
+.information .acd-project .list-project .project .title-project:hover {
+    text-decoration-line: none;
+}
+.information .acd-project .list-project .project .address {
+    margin-top: 12px;
+    font-size: 20px;
+    line-height: 1.3;
+}
+.information .acd-project .list-project .project .collapse {
+    font-size: 18px;
+    color: #8e8e93;
+    margin-top: 16px;
+}
+.information .acd-project .list-project .project .collapse .link {
+    font-size: 20px;
+    color: #00c199 !important;
+}
+.information .acd-project .image-background {
+    background: url('../img/backgroun-info.png');
+    background-size: cover;
+    width: 72%;
+}
+

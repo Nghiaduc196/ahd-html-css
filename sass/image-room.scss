@@ -1,0 +1,68 @@
+.information-room {
+  padding-left: 124px;
+  .title-section {
+    width: 385px;
+    height: 41px;
+    font-family: Inter, sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.17px;
+    text-align: left;
+    color: #1d293f;
+  }
+}
+
+
+
+.room-utilities {
+  .room-utilities-content {
+    margin-left: 295px;
+    .room-utilities-content-title {
+      font-family: Inter, sans-serif;
+      font-size: 34px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.21;
+      letter-spacing: 0.17px;
+      text-align: center;
+      color: #1d293f;
+    }
+    .icon {
+      height: 174px;
+    }
+  }
+}
+
+
+.image-room {
+  margin-left: 160px;
+  margin-right: 160px;
+  background: #f8f9f9
+;
+  .title-section {
+    font-family: Inter, sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.17px;
+    text-align: left;
+    color: #1d293f;
+  }
+  .link-more {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0e1e8e;
+  }
+}

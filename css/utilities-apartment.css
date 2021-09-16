@@ -1,0 +1,73 @@
+.banner-bg-page {
+    background: url('../img/bacground-breackcumb.png');
+    background-size: cover;
+}
+
+.title-utilities {
+
+}
+
+.title-utilities .title-utilities-content {
+
+}
+
+.title-utilities .title-utilities-content .title-content {
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: 0.24px;
+    text-align: left;
+    color: #fff;
+}
+
+
+.title-utilities .title-utilities-content .sub-content {
+    max-width: 522px;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.list-utilities {
+    padding-top: 44px;
+    padding-bottom: 104px;
+}
+
+.list-utilities .list-utilities-content{
+    padding:  0 145px;
+}
+
+.list-utilities .list-utilities-content .content-detail .title-section{
+    font-family: Inter, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.14px;
+    text-align: left;
+    color: #1d293f;
+}
+
+
+.list-utilities .list-utilities-content .content-detail .content-info .text-sub{
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1d293f;
+}
+

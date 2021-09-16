@@ -1,0 +1,227 @@
+.image-room-section {
+    background: #f8f9f9;
+}
+.image-room-section .image-room {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.image-room .title-section {
+    font-family: Inter, sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.17px;
+    text-align: left;
+    color: #1d293f;
+}
+.image-room .link-more {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0e1e8e;
+}
+
+.room-utilities .room-utilities-content {
+}
+.room-utilities .room-utilities-content .room-utilities-content-title {
+    margin-bottom: 39px;
+    font-family: Inter, sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.17px;
+    text-align: center;
+    color: #1d293f;
+}
+.room-utilities .room-utilities-content .icon {
+    height: 174px;
+}
+
+
+.room-utilities .room-utilities-content .icon p{
+    font-family: Inter, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.14px;
+    text-align: center;
+    color: #1d293f;
+}
+
+
+.information-room {
+    padding-left: 124px;
+    padding-bottom: 83px;
+    padding-top: 120px;
+}
+
+.information-room .title-section {
+    width: 385px;
+    height: 41px;
+    font-family: Inter, sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.17px;
+    text-align: left;
+    color: #1d293f;
+}
+
+.information-room .content-info .text-info {
+    margin-bottom: 7px;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8e8e93 !important;
+}
+
+.information-room .content-info .text-value {
+    margin-bottom: 52px;
+    font-family: Inter, Inter, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.14px;
+    text-align: left;
+    color: #1d293f;
+}
+
+.banner-bg-page {
+    position: relative;
+    background: url('../img/bg-detail-room.png');
+    height: 1224px;
+}
+
+.slide-introduce {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.slide-introduce .image-slide {
+    position: relative;
+    width: 384px;
+    height: 384px;
+}
+
+.slide-introduce .image-slide img{
+    width: 384px;
+    height: 384px;
+}
+
+.slide-introduce .image-slide .content-slide {
+    position: absolute;
+    bottom: 0;
+}
+.slide-introduce .image-slide .content-slide .title-slide {
+    margin-bottom: 12px;
+    font-family: Inter, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+.slide-introduce .image-slide .content-slide .sub-slide {
+    max-width: 320px;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.content-introduce .title-content-introduce {
+    font-family: Inter, sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.17px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.content-introduce .title-content-introduce {
+    font-family: Inter, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.content-introduce .btn-see-more-image {
+    width: 250px;
+    height: 56px;
+    border-radius: 10px;
+    background-color: #00c199;
+    font-family: Inter, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.title-home .title-home-content .title-content {
+    font-family: Inter, sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: 0.36px;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 22px;
+}
+
+.title-home .title-home-content .sub-content {
+    font-family: Inter, sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.17px;
+    text-align: left;
+    color: #fff;
+}
+
+.breadcrumb-section .nav-tabs .nav-item.show .nav-link {
+    background: none;
+}

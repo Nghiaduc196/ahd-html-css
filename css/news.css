@@ -163,11 +163,11 @@
     background: #ddf3f1;
 }
 
-.content-new {
+.content-articles {
     max-width: 1060px;
 }
 
-.content-new .title-new {
+.content-articles .title-articles {
     font-family: Inter, sans-serif;
     font-size: 34px;
     font-weight: 500;
@@ -179,7 +179,7 @@
     color: #1d293f;
 }
 
-.content-new .time-new {
+.content-articles .time-articles {
     font-family: Inter, sans-serif;
     font-size: 18px;
     font-weight: normal;
@@ -191,7 +191,7 @@
     color: #7c8087;
 }
 
-.content-new .text-content-new {
+.content-articles .text-content-articles {
     font-family: Inter, sans-serif;
     font-size: 20px;
     font-weight: normal;
@@ -203,7 +203,7 @@
     color: #1d293f;
 }
 
-.content-new img {
+.content-articles img {
     max-width: 1033px;
     margin-top: 44px;
     margin-bottom: 48px;

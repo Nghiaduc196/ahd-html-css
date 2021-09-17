@@ -63,11 +63,12 @@
 }
 .register-form .register {
     position: relative;
-    width: 655px;
+    width: 100%;
+    max-width: 655px;
     height: 56px;
 }
 .register-form .register input {
-    width: 655px;
+    width: 100%;
     height: 56px;
 }
 .register-form .register a {

@@ -41,3 +41,20 @@
     text-align: left;
     color: var(--dark);
 }
+
+.aside-search {
+    width: 100%;
+    max-width: 384px;
+}
+
+.card .card-title {
+    font-family: Inter, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1d293f;
+}

@@ -36,27 +36,4 @@
     color: #7c8087;
 }
 
-.datetimepickers {
-    width: 100%;
-    max-width: 385px;
-    height: 72px;
-    background-color: #ffffff;
-}
 
-.datetimepickers input{
-    height: 100%;
-    border: solid 1.5px #e5e7e9;
-    border-radius: 10px;
-    border-right: none;
-
-}
-
-.datetimepickers .input-group-append .input-group-text{
-   background: none;
-    border: solid 1.5px #e5e7e9;
-    border-left: none ;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    color: #0e2388;
-    font-size: 24px;
-}

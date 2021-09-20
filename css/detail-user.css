@@ -38,6 +38,16 @@
 }
 .img-cover .image-top{
     position: relative;
+    background: url("../img/image-room.png");
+    background-size: cover;
+    height: 328px;
+}
+
+.img-cover .image-bottom{
+    position: relative;
+    background: url("../img/thanh-nav.png");
+    background-size: cover;
+    height: 80px;
 }
 
 .img-cover .avatar img{
@@ -50,3 +60,17 @@
     left: 160px;
 }
 
+.btn-edit-profile {
+    background-color: #fff;
+    width: 152px;
+    height: 48px;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d293f;
+}

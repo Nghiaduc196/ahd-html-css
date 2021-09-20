@@ -219,3 +219,18 @@ body {
         margin: 0 20px !important;
     }
 }
+
+.btn-edit {
+    background-color: #fff;
+    width: 152px;
+    height: 48px;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d293f;
+}

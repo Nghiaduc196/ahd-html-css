@@ -210,3 +210,12 @@ body {
     text-align: center;
     color: #fff;
 }
+
+@media screen and (max-width: 1024px){
+    .content-section  {
+        margin: 40px 20px 40px;
+    }
+    .line-32 {
+        margin: 0 20px !important;
+    }
+}

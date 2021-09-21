@@ -1,0 +1,147 @@
+.slide-rage .title-value {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1d293f;
+}
+
+.slide-rage .show-value {
+    max-width: 128px;
+    max-height: 40px;
+    font-family: Inter, sans-serif;
+    padding: 10px 16px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: right;
+    color: #1d293f;
+    border-radius: 6px;
+    border: 1px solid #f2f3f4;
+    background-color: #f2f3f4;
+}
+
+.table {
+    border: none;
+}
+
+.table thead {
+    width: 100%;
+    border: none;
+}
+
+.table tbody {
+    width: 100%;
+    border-bottom: 1px solid #f2f3f4;
+}
+
+.table thead tr th {
+    background: #ddf3f1;
+    text-align: center;
+    border: none;
+}
+
+.table tbody tr td{
+    text-align: center;
+
+}
+
+.w-19 {
+    width: 19%;
+}
+
+
+.w-27 {
+    width: 27%;
+}
+
+.title-section {
+    font-family: Inter, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.14px;
+    text-align: left;
+    color: #1d293f;
+    margin-bottom: 30px;
+}
+
+.chart-container {
+    width:311px;
+    height: 311px;
+    position: relative;
+}
+
+.chart-container .text-value-total {
+    position: absolute;
+    left: 27%;
+    top: 41%;
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: 0.24px;
+    text-align: center;
+    color: #1d293f;
+}
+
+
+.content-chart .text-sub {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: 0.24px;
+    text-align: center;
+    color: #8e8e93;
+    margin-bottom: 61px;
+}
+
+.content-chart .text-sub span{
+    color: #1d293f;
+}
+
+.value {
+    width: 163px;
+    height: 24px;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1d293f;
+}
+
+.btn-light-blue {
+    padding: 13px 20px;
+    height: 48px;
+    border-radius: 8px;
+    border: solid 1.5px #e5e7e9;
+    background-color: #fff;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1d293f;
+}

@@ -224,5 +224,29 @@
     line-height: 1.3;
     letter-spacing: normal;
     text-align: left;
-    color: var(--dark);
+    color: #1d293f;
+}
+
+.upload-image {
+    width: 376px;
+    height: 216px;
+    border-radius: 8px;
+    border: solid 1.5px #e5e7e9;
+}
+
+.upload-image img{
+    width: 30px;
+    height: 30px;
+}
+
+.upload-image p {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
 }

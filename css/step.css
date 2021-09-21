@@ -1,0 +1,115 @@
+.steps {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+.steps li {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 0;
+    position: relative;
+    width: 313px;
+}
+.steps li div {
+    cursor: pointer;
+}
+
+.steps .step-first div span:nth-child(8) {
+    display: block;
+    position: relative;
+    height: 40px;
+    border-left: 40px solid #e5e7e9;
+    border-top: 40px solid #e5e7e9;
+    border-right: 40px solid transparent;
+}
+
+.steps .step-first.step-first-active div span:nth-child(8) {
+    border-left: 40px solid #00c199;
+    border-top: 40px solid #00c199;
+}
+
+.steps .step-first:hover div span:nth-child(8) {
+    border-left: 40px solid #00c199;
+    border-top: 40px solid #00c199;
+    border-right: 40px solid transparent;
+}
+
+.steps .step-mid div span:nth-child(8) {
+    display: block;
+    position: relative;
+    height: 40px;
+    line-height: 38px;
+    background: #e5e7e9;
+    color: black;
+    transform: skew(-45deg, 0deg);
+    -moz-transform: skew(-45deg, 0deg);
+    -webkit-transform: skew(-45deg, 0deg);
+    -o-transform: skew(-45deg, 0deg);
+    -ms-transform: skew(-45deg, 0deg);
+}
+
+.steps .step-mid:hover div span:nth-child(8) {
+    background: #00c199;
+}
+
+.steps .step-mid.step-mid-active div span:nth-child(8) {
+    background: #00c199;
+}
+
+.steps .step-end div span:nth-child(8) {
+    display: block;
+    position: relative;
+    height: 40px;
+    border-right: 40px solid #e5e7e9;
+    border-bottom: 40px solid #e5e7e9;
+    border-left: 40px solid transparent;
+}
+
+.steps .step-end:hover div span:nth-child(8) {
+    border-right: 40px solid #00c199;
+    border-bottom: 40px solid #00c199;
+    border-left: 40px solid transparent;
+}
+
+.steps .step-end.step-end-active div span:nth-child(8) {
+    border-right: 40px solid #00c199;
+    border-bottom: 40px solid #00c199;
+    border-left: 40px solid transparent;
+}
+
+.steps label {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8e8e93;
+}
+
+.steps label.active {
+    color: #00c199;
+}
+
+.padding-left-25px {
+    padding-left: 25px;
+}
+
+.padding-left-40px {
+    padding-left: 40px;
+}
+
+@media screen and (max-width: 1732px){
+    .steps label {
+        width: 175px;
+    }
+}

@@ -17,6 +17,7 @@
 .form-label-group > input, .form-label-group > select,
 .form-label-group > label {
   width: 100%;
+  border-radius: 10px;
   font-family: Inter, sans-serif;
   font-size: 20px;
   font-weight: normal;

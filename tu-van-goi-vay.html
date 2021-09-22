@@ -1,0 +1,425 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="AHD" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>AHD</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- CSS Global Compulsory (Do not remove)-->
+    <link rel="stylesheet" href="css/bs.css" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Page CSS Implementing Plugins (Remove the plugin CSS here if site does not use that feature)-->
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
+
+    <!-- Template Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/finance-support.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+</head>
+
+<body>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modelQuestion">
+    Tư vấn gói vay
+</button>
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modelGetResult">
+    Nhận kết quả
+</button>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modelChooseLoan">
+    Chọn gói vay
+</button>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modelSampleDocument">
+    Tài liệu mẫu
+</button>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modelHelp">
+    Trợ giúp
+</button>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modelDetailHelp">
+    Detail Trợ giúp
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modelQuestion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body pt-0" style="padding-left: 40px; padding-right: 33px">
+                <h5 class="modal-title" id="exampleModalLabel">Tư vấn gói vay</h5>
+                <p class="modal-sub mt-4">Vui lòng trả lời các câu hỏi sau để chúng tôi có thể tìm cho bạn những gói hỗ trợ </p>
+                <form>
+                    <div class="form-group">
+                        <label class="question" for="exampleInputAnswer1">1. Câu hỏi số 1</label>
+                        <input type="text" class="form-control" id="exampleInputAnswer1">
+                    </div>
+                    <div class="form-group">
+                        <label class="question" for="exampleInputAnswer2">2. Câu hỏi số 2</label>
+                        <input  type="text" class="form-control" id="exampleInputAnswer2">
+                    </div>
+                    <div class="form-group">
+                        <label class="question" for="exampleInputAnswer3">3. Câu hỏi số 3</label>
+                        <input type="text" class="form-control" id="exampleInputAnswer3">
+                    </div>
+                </form>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary mt-5 mb-5 mx-auto">Xem gói vay phù hợp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="modelGetResult" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body pt-0" style="padding-left: 25px; padding-right: 25px">
+                <h5 class="modal-title">Nhận kết quả</h5>
+                <p class="modal-sub mt-4">Vui lòng nhập thông tin để nhận kết quả </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Họ và tên*" style="height: 56px">
+                    </div>
+                    <div class="form-group">
+                        <input  type="text" class="form-control" placeholder="Email*" style="height: 56px">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Số điện thoại*" style="height: 56px">
+                    </div>
+                </form>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-green-blue mt-5 mb-4" style="width: 100%;height: 56px">Nhận kết quả</button>
+                    <a href="#" class="btn mt-2" style="width: 100%;height: 56px;color: #0e1e8e">Thoát và không nhận kết quả</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="modelChooseLoan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg m-0" role="document">
+        <div class="modal-content" style="width: 1599px">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body pt-0" style="padding-left: 25px; padding-right: 25px;width: 1600px">
+                <h5 class="modal-title" style="margin-bottom: 42px">Gói vay phù hợp</h5>
+                <div class="row">
+                    <div class="col-auto">
+                        <div class="card" style="width: 749px; padding-bottom: 64px">
+                            <div class="row">
+                                <div class="col-auto">
+                                    <input type="checkbox" class="form-check-input" style="margin-left: 31px; margin-top: 30px;z-index: 100; width: 20px; height: 20px">
+                                </div>
+                                <div class="col-auto">
+                                    <div class="chart-container" style="margin-top: 32px">
+                                        <p class="text-value-total">2.4 Tỷ</p>
+                                        <canvas id="myChart"></canvas>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="content-chart" style="margin-top: 52px; margin-left: 70px">
+                                        <p class="text-sub mb-0">Tháng thanh toán tháng đầu: </p>
+                                        <p class="text-sub" style="color: #1d293f; text-align: left; margin-bottom: 30px">1.680.000.000đ </p>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="text-left" style="font-size: 18px"><i class="fa fa-circle" aria-hidden="true" style="padding-right: 13px; color: #4371fb"></i> Trả trước</p>
+                                                <p class="value" style="font-size: 20px; color: #1d293f">720,000,000đ</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p style="font-size: 18px"><i class="fa fa-circle" aria-hidden="true" style="padding-right: 13px; color: #00c199"></i> Gốc cần trả</p>
+                                                <p style="font-size: 20px; color: #1d293f">720,000,000đ</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p style="font-size: 18px"><i class="fa fa-circle" aria-hidden="true" style="padding-right: 13px; color: #ffcb32"></i> Lãi cần trả</p>
+                                                <p style="font-size: 20px; color: #1d293f">720,000,000đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="card" style="width: 749px; padding-bottom: 64px">
+                            <div class="row">
+                                <div class="col-auto">
+                                    <input type="checkbox" class="form-check-input" style="margin-left: 31px; margin-top: 30px;z-index: 100; width: 20px; height: 20px">
+                                </div>
+                                <div class="col-auto">
+                                    <div class="chart-container" style="margin-top: 32px">
+                                        <p class="text-value-total">2.4 Tỷ</p>
+                                        <canvas id="myChar1"></canvas>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="content-chart" style="margin-top: 52px; margin-left: 70px">
+                                        <p class="text-sub mb-0">Tháng thanh toán tháng đầu: </p>
+                                        <p class="text-sub" style="color: #1d293f; text-align: left; margin-bottom: 30px">1.680.000.000đ </p>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="text-left" style="font-size: 18px"><i class="fa fa-circle" aria-hidden="true" style="padding-right: 13px; color: #4371fb"></i> Trả trước</p>
+                                                <p class="value" style="font-size: 20px; color: #1d293f">720,000,000đ</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p style="font-size: 18px"><i class="fa fa-circle" aria-hidden="true" style="padding-right: 13px; color: #00c199"></i> Gốc cần trả</p>
+                                                <p style="font-size: 20px; color: #1d293f">720,000,000đ</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p style="font-size: 18px"><i class="fa fa-circle" aria-hidden="true" style="padding-right: 13px; color: #ffcb32"></i> Lãi cần trả</p>
+                                                <p style="font-size: 20px; color: #1d293f">720,000,000đ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-lightish-blue mt-5 mb-5">Chọn gói vay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="modelSampleDocument" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content" style="padding: 24px">
+            <div class="modal-header" style="padding: 0">
+                <h5 class="modal-title">Tài liệu mẫu</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body p-0" >
+                <p class="modal-sub mb-4">Làm đơn & điền thông tin</p>
+                <div class="row" style="padding-bottom: 360px">
+                    <div class="col-md-4">
+                        <img class="img-fluid mb-3" src="img/room2.png">
+                        <a href="#" class="link-download" style="color: #1d293f; font-size: 20px">Tulieu.docx</a>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid mb-3" src="img/room2.png">
+                        <a href="#" class="link-download" style="color: #1d293f; font-size: 20px">Tulieu.docx</a>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid mb-3" src="img/room2.png">
+                        <a href="#" class="link-download" style="color: #1d293f; font-size: 20px">Tulieu.docx</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="modelHelp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content" style="padding: 24px 24px 0">
+            <div class="modal-header" style="padding: 0">
+                <h5 class="modal-title">Trợ giúp</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body p-0" >
+                <p class="modal-sub mb-4">Làm đơn & điền thông tin</p>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="input-group mb-4" style="padding-top: 20px; width: 100%;height: 48px;border-radius: 6px;">
+                            <input type="text" class="form-control" placeholder="Tìm kiếm" style="background-color: #f2f3f4;">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button" style="background-color: #f2f3f4;border: 1px solid #ced4da;border-left: none;"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <ul class="list-group mt-2">
+                            <li class="list-group-item pl-0 pb-3"><a href="#">Đối tượng thụ hưởng chính sách nhà ở xã hội<a/></li>
+                            <li class="list-group-item pl-0 pb-3 pt-3"><a href="#">Trình tự thủ tục nộp hồ sơ nhà ở xã hội </a></li>
+                            <li class="list-group-item pl-0 pb-3 pt-3"><a href="#">Các giấy tờ chứng minh điều kiện nộp hồ sơ nhà ở xã hội</a></li>
+                            <li class="list-group-item pl-0 pb-3 pt-3"><a href="#">Các giấy tờ chứng minh điều kiện nộp hồ sơ nhà ở xã hội</a></li>
+                            <li class="list-group-item pl-0 pb-3 pt-3"><a href="#">Các giấy tờ chứng minh điều kiện nộp hồ sơ nhà ở xã hội</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modelDetailHelp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content" style="padding: 24px 24px 0">
+            <div class="modal-header" style="padding: 0">
+                <a href="#">Trở lại</a>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body p-0" >
+                <h5 class="modal-title mt-2">Đối tượng thụ hưởng chính sách nhà ở xã hội</h5>
+                <div class="line mt-4 mb-4"></div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text">Nhà ở xã hội Phúc Đồng Hope Residences sẽ thay đổi quan điểm của cộng đồng cư dân về chất lượng nhà ở xã hội. Theo đó, chúng tôi chuẩn bị kỹ lưỡng từ khâu thiết kế kiến trúc tòa nhà, thiết kế căn hộ, hệ thống tiện ích, quản lý chất lượng dịch vụ… Tất cả đều áp dụng các công nghệ hiện đại nhất, phương pháp tối ưu nhất để giảm chi phí đầu vào, hạ giá thành sản phẩm. </p>
+                        <br>
+                        <p class="text">Hope Residences hội tụ nhiều yếu tố để dự án sẽ thành công mỹ mãn và khẳng định thương hiệu về nhà ở xã hội của chúng tôi. Vị trí là yếu tố then chốt, ở đây cư dân sẽ rất thuận tiện đi lại, có thể nói đây là dự án NOXH có vị trí đẹp nhất nhì tại Hà Nội. </p>
+                        <br>
+                        <p class="text"> Ngoài ra, thiết kế hiện đại theo phong cách Singapor  là điểm nhấn thứ 2. Các căn hộ vuông vắn, có diện tích đa dạng từ 51 -70 m2, thiết kế mới giúp các căn phòng đều có ánh sáng và gió thiên nhiên. </p>
+                        <br>
+                        <p class="text"> Điểm nhấn thứ 3 đó là hệ thống tiện ích đáp ứng đầy đủ, sống ở NOXH nhưng sử dụng các tiện ích như nhà ở thương mại. Bạn sẽ được tận hưởng cuộc sống xanh, không gian an lành và không phải đi đâu xa để mua sắm, vui chơi giải trí, vì tất cả đã có tại tầng thươn mại dự án. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="margin-top: 40px; margin-left: 40px">
+    <div class="search-result">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="media">
+                    <img class="mr-3" src="img/room2.png" alt="Generic placeholder image" style="max-width: 152px; border-radius: 6px">
+                    <div class="media-body">
+                        <h5 class="mt-2">Hope Residences Phúc Đồng, Long Biên</h5>
+                        <span> <i class="fa fa-map-marker p-0" aria-hidden="true" style="color: #f59696"></i> Đường Nguyễn Lam, phường Phúc Đồng, quận Long Biên, Hà Nội</span>
+                    </div>
+                </div>
+                <div class="line mt-3"></div>
+            </li>
+            <li class="list-group-item"><i class="fa fa-search" aria-hidden="true"></i>Hope Residences Phúc Đồng</li>
+            <li class="list-group-item"><i class="fa fa-search" aria-hidden="true"></i>Hope Residences Phúc Đồn</li>
+            <li class="list-group-item"><i class="fa fa-search" aria-hidden="true"></i>Hope Residences Phúc Đồn</li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+<script>
+    $('#modelQuestion').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+    })
+</script>
+
+<script>
+
+    var xValues = ["Trả trước 720,000,000đ", "Gốc cần trả 1.680.000.000đ", "Lãi cần trả 448,350,000đ"];
+    var yValues = [55, 49, 44];
+    var barColors = [
+        "#4371fb",
+        "#00c199",
+        "#ffcb32"
+    ];
+
+    new Chart("myChart", {
+        type: "doughnut",
+        data: {
+            labels: xValues,
+            datasets: [{
+                backgroundColor: barColors,
+                data: yValues,
+            }]
+        },
+
+        options: {
+            responsive: true,
+            cutout: 145,
+            plugins: {
+                title: {
+                    display: false,
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        }
+    });
+
+    new Chart("myChar1", {
+        type: "doughnut",
+        data: {
+            labels: xValues,
+            datasets: [{
+                backgroundColor: barColors,
+                data: yValues,
+            }]
+        },
+
+        options: {
+            responsive: true,
+            cutout: 145,
+            plugins: {
+                title: {
+                    display: false,
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        }
+    });
+
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<!-- Template Scripts (Do not remove)-->
+<script src="js/custom.js"></script>
+</body>
+
+</html>
+
+
+

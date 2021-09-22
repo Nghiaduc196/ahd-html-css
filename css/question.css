@@ -1,0 +1,41 @@
+.question-title {
+    font-family: Inter, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1d293f;
+    margin-top: 33px;
+}
+
+.answer-text {
+    width: 100%;
+    background: #f2f3f4;
+    height: 56px;
+    padding: 16px 31px 16px 26px;
+    border-radius: 8px;
+    text-align: left;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #1d293f;
+}
+
+.link-back {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4371fb;
+}

@@ -21,10 +21,11 @@
 }
 .navbar-brand {
     width: 102px;
-    height: 36px;
+    padding-bottom: 20px;
 }
 nav {
     margin-right: 133px;
+    z-index: 9999999;
 }
 nav .nav-bar-content {
     margin-top: 20px;
@@ -43,3 +44,18 @@ nav .nav-bar-content {
 .logo-header {
     margin-left: 144px;
 }
+
+.dropdown-menu.show-drop-avatar {
+    left: -220px;
+}
+
+.dropdown-menu.show {
+    top: auto;
+}
+
+.nav-link.active {
+    border-bottom: 3px solid #0e1e8e;
+    color: #0e1e8e;
+    padding-bottom: 30px;
+}
+
